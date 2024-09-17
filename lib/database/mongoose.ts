@@ -1,6 +1,4 @@
-/* eslint-disable prefer-const */
-/* eslint-disable no-prototype-builtins */
-/* eslint-disable no-unused-vars */
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import mongoose, { Mongoose } from 'mongoose';
 
 const MONGODB_URL = process.env.MONGODB_URL;

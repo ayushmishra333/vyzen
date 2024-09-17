@@ -1,5 +1,6 @@
 /* eslint-disable prefer-const */
 /* eslint-disable no-prototype-builtins */
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 import { type ClassValue, clsx } from "clsx";
 import qs from "qs";
 import { twMerge } from "tailwind-merge";
@@ -155,6 +156,3 @@ export const deepMergeObjects = (obj1: any, obj2: any) => {
 
   return output;
 };
-
-
-
