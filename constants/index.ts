@@ -92,6 +92,7 @@ export const navLinks = [
         },
       ],
     },
+
     {
       _id: 3,
       name: "Premium Package",
@@ -160,7 +161,7 @@ export const navLinks = [
       icon: "filter.svg",
     },
   };
-  
+
   export const aspectRatioOptions = {
     "1:1": {
       aspectRatio: "1:1",
