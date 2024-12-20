@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Vyzen  
 
-## Getting Started
+### Table of Contents  
+- [🤖 Introduction](#-introduction)  
+- [⚙️ Tech Stack](#️-tech-stack)  
+- [🔋 Features](#-features)  
 
-First, run the development server:
+## 🤖 Introduction  
+Vyzen is an AI-powered Software-as-a-Service application built with Next.js 14. It provides users with advanced image transformation features such as object removal, background removal, and generative fill, while offering a secure payments and credits system. Vyzen is designed for both creative professionals and casual users, delivering a seamless and intuitive experience for image manipulation.  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Tech Stack  
+- **Next.js 14**  
+- **Clerk**  
+- **MongoDB**  
+- **Cloudinary AI**  
+- **Stripe**  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔋 Features  
+- **Authentication & Authorization**: Secure user access with robust registration, login, and route protection.  
+- **Community Image Showcase**: Explore user-created transformations with easy navigation using pagination.  
+- **Advanced Image Search**: Quickly and accurately find images by content or objects present inside them.  
+- **Image Restoration**: Revive old or damaged images effortlessly with cutting-edge AI.  
+- **Image Recoloring**: Replace object colors in images to customize them easily.  
+- **Image Generative Fill**: Seamlessly fill in missing areas of images with precision.  
+- **Object Removal**: Clean up images by removing unwanted objects flawlessly.  
+- **Background Removal**: Extract objects from their backgrounds with ease.  
+- **Download Transformed Images**: Save and share AI-transformed images conveniently.  
+- **Transformed Image Details**: View detailed transformation history for each image.  
+- **Transformation Management**: Control over deletion and updates of transformations.  
+- **Credits System**: Earn or purchase credits for image transformations with ease.  
+- **Profile Page**: Access transformed images and track credit usage personally.  
+- **Credits Purchase**: Securely buy credits through Stripe for uninterrupted usage.  
+- **Responsive UI/UX**: Enjoy a seamless experience across all devices with a user-friendly interface.  
+  ...and many more, including modular code architecture and reusability.  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Feel free to contribute or report any issues to help us make Vyzen even better! 🚀
